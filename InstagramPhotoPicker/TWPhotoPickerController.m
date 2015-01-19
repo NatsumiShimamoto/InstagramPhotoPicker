@@ -227,6 +227,7 @@
     [self dismissViewControllerAnimated:YES completion:NULL];
 }
 
+//OKボタン押した！
 - (void)cropAction {
     if (self.cropBlock) {
         self.cropBlock(self.imageScrollView.capture);
