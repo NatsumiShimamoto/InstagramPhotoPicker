@@ -15,11 +15,8 @@
 		0D758FEC1A2FFFF60040D2AF /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0D758FEB1A2FFFF60040D2AF /* Images.xcassets */; };
 		0D758FEF1A2FFFF60040D2AF /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0D758FED1A2FFFF60040D2AF /* LaunchScreen.xib */; };
 		0D758FFB1A2FFFF60040D2AF /* InstagramPhotoPickerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D758FFA1A2FFFF60040D2AF /* InstagramPhotoPickerTests.m */; };
-		0D7590061A30016A0040D2AF /* TWPhotoPickerController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D7590051A30016A0040D2AF /* TWPhotoPickerController.m */; };
-		0DB25BDC1A303AFB0013AF4B /* TWPhotoCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DB25BDB1A303AFB0013AF4B /* TWPhotoCollectionViewCell.m */; };
-		0DB25BDF1A305B850013AF4B /* TWImageScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DB25BDE1A305B850013AF4B /* TWImageScrollView.m */; };
+		DD372B6C1A7DE970009941E1 /* AssetsLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD5EA1C21A6D3E6500D78356 /* AssetsLibrary.framework */; };
 		DD5EA1D41A6D46B800D78356 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD5EA1C81A6D3E9000D78356 /* UIKit.framework */; };
-		DD5EA1D51A6D46FA00D78356 /* AssetsLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD5EA1C21A6D3E6500D78356 /* AssetsLibrary.framework */; };
 		DDB88E1F1A67DFBF000C48F0 /* PhotoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DDB88E1E1A67DFBF000C48F0 /* PhotoViewController.m */; };
 /* End PBXBuildFile section */
 
@@ -48,12 +45,6 @@
 		0D758FF41A2FFFF60040D2AF /* InstagramPhotoPickerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = InstagramPhotoPickerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0D758FF91A2FFFF60040D2AF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0D758FFA1A2FFFF60040D2AF /* InstagramPhotoPickerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = InstagramPhotoPickerTests.m; sourceTree = "<group>"; };
-		0D7590041A30016A0040D2AF /* TWPhotoPickerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TWPhotoPickerController.h; sourceTree = "<group>"; };
-		0D7590051A30016A0040D2AF /* TWPhotoPickerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TWPhotoPickerController.m; sourceTree = "<group>"; };
-		0DB25BDA1A303AFB0013AF4B /* TWPhotoCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TWPhotoCollectionViewCell.h; sourceTree = "<group>"; };
-		0DB25BDB1A303AFB0013AF4B /* TWPhotoCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TWPhotoCollectionViewCell.m; sourceTree = "<group>"; };
-		0DB25BDD1A305B850013AF4B /* TWImageScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TWImageScrollView.h; sourceTree = "<group>"; };
-		0DB25BDE1A305B850013AF4B /* TWImageScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TWImageScrollView.m; sourceTree = "<group>"; };
 		1DBE0824CED55599A3776793 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		816239C3C52B5AA0C6EAA1B6 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		DD5EA1C21A6D3E6500D78356 /* AssetsLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AssetsLibrary.framework; path = System/Library/Frameworks/AssetsLibrary.framework; sourceTree = SDKROOT; };
@@ -74,7 +65,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DD5EA1D51A6D46FA00D78356 /* AssetsLibrary.framework in Frameworks */,
+				DD372B6C1A7DE970009941E1 /* AssetsLibrary.framework in Frameworks */,
 				DD5EA1D41A6D46B800D78356 /* UIKit.framework in Frameworks */,
 				012DD9B178E813BF9E9CA4EB /* libPods.a in Frameworks */,
 			);
@@ -157,12 +148,6 @@
 		0DB25BE11A3071040013AF4B /* PhotoPicker */ = {
 			isa = PBXGroup;
 			children = (
-				0D7590041A30016A0040D2AF /* TWPhotoPickerController.h */,
-				0D7590051A30016A0040D2AF /* TWPhotoPickerController.m */,
-				0DB25BDA1A303AFB0013AF4B /* TWPhotoCollectionViewCell.h */,
-				0DB25BDB1A303AFB0013AF4B /* TWPhotoCollectionViewCell.m */,
-				0DB25BDD1A305B850013AF4B /* TWImageScrollView.h */,
-				0DB25BDE1A305B850013AF4B /* TWImageScrollView.m */,
 			);
 			name = PhotoPicker;
 			sourceTree = "<group>";
@@ -328,12 +313,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0DB25BDF1A305B850013AF4B /* TWImageScrollView.m in Sources */,
 				0D758FE71A2FFFF60040D2AF /* ViewController.m in Sources */,
 				0D758FE41A2FFFF60040D2AF /* AppDelegate.m in Sources */,
 				0D758FE11A2FFFF60040D2AF /* main.m in Sources */,
-				0DB25BDC1A303AFB0013AF4B /* TWPhotoCollectionViewCell.m in Sources */,
-				0D7590061A30016A0040D2AF /* TWPhotoPickerController.m in Sources */,
 				DDB88E1F1A67DFBF000C48F0 /* PhotoViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
